@@ -1,5 +1,3 @@
-!pip install google-api-python-client pandas
-!pip install schedule
 
 import os
 import csv
