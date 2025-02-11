@@ -82,7 +82,7 @@ def job():
 
 def main():
     # Schedule the job to run every hour.
-    schedule.every(0.3).hours.do(job)
+    schedule.every(0.09).hours.do(job)
     job()  # Run once immediately
 
     print("Scheduler started. Data will be collected every hour. Press Ctrl+C to exit.")
