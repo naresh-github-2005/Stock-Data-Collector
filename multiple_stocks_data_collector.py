@@ -12,7 +12,7 @@ import datetime
 import requests
 
 # === Configuration ===
-API_KEY = os.getenv("AKGPPTHLE1M1XCEQ")  # Fetch API Key from GitHub Secrets
+API_KEY = os.getenv("9OCRMK3V67KUE7QD")  # Fetch API Key from GitHub Secrets
 STOCKS = ["AAPL", "MSFT", "GOOG", "NVDA", "IBM", "TSLA", "AMZN", "META", "ORCL", "KO"]  # List of stock symbols
 CSV_FILE = "multiple_stocks_data.csv"  # CSV file to store the collected data
 
