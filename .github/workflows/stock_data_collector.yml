@@ -2,7 +2,9 @@ name: Stock Data Collection
 
 on:
   schedule:
-     - cron: "*/30 13-20 * * 1-5"  # Runs every hour from 2:30 PM to 9:00 PM UTC (Standard Time: Nov–Mar)
+     - cron: "*/5 14-21 * * 1-5"  # Every 5 minutes from 9:30 AM – 4:00 PM ET (Standard Time)
+     - cron: "*/5 13-20 * * 1-5"  # Every 5 minutes from 9:30 AM – 4:00 PM ET (Daylight Time)
+
   workflow_dispatch:  # Allows manual execution
 
 jobs:
